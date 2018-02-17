@@ -2,6 +2,6 @@ To use program you need to start main.java first.It will ask you host name,portn
 
 As bonus
 
-I implemented active mode but it only works on localserver because when i send my real ip and opened port to real server i couldnt make port forwarding with java.To use active mode just typing "port" and pressing enter is enough.After this step, program will create new serversocket on your computer with any port that available(to do it i just assigned port number to zero) and send this informations to the ftp server. Then clientmode will start new thread of activemode.This thread will accept ftp server connection as client to created server on computer.Then will listen ftpserver.
+I implemented active mode but it only works on localserver because when i send my real ip and opened port to real server i couldnt make port forwarding with java.To use active mode just typing "port" df and pressing enter is enough.After this step, program will create new serversocket on your computer with any port that available(to do it i just assigned port number to zero) and send this informations to the ftp server. Then clientmode will start new thread of activemode.This thread will accept ftp server connection as client to created server on computer.Then will listen ftpserver.
 
 Sabri Akkaş
